@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="ungu">#622F95</color>
+    <color name="ungumuda">#f4ded3</color>
+    <color name="ungusoft">#87669e</color>
+    <color name="unguu">#A284C1</color>
+    <color name="pinnk">#d986a4</color>
+    <color name="pinnks">#FFBD446D</color>
+    <color name="pinkmuda">#f8c1d4</color>
+    <color name="tema">#9c7ebc</color>
+
+</resources>

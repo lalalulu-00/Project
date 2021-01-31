@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical"
+    tools:context=".Artikel.Artikel6">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Rekomendasi Skin Care untuk Mencerahkan Kulit"
+                android:textColor="@color/ungu"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Mencampurkan vitamin C dan niacinamide hingga saat ini masih jadi perdebatan. Ada yang bilang boleh, ada juga yang bilang nggak boleh. Niacinamide berfungsi untuk meredakan iritasi, melawan radikal bebas, dan membasmi jerawat, sedangkan vitamin C berguna untuk melawan radikal bebas dan menstimulasi pembentukan kolagen. Nggak sampai di situ saja, kedua kandungan ini ampuh menyamarkan noda hitam pada kulit, lho!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Lantas, aman nggak sih skin care berkandungan vitamin C dan niacinamide sekaligus? Sebenarnya untuk produk yang ada campuran vitamin C dan niacinamide, tentu sudah diformulasikan dengan presentase yang pas dan melalui uji dermatologis. Jadi, formula yang dihadrikan terbilang aman dan tidak memicu iritasi kulit. Nah, buat yang ingin menggunakan skin care berkandungan vitamin C dan niacinamide, berikut rekomendasi produknya."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="COSRX Refresh ABC Daily Toner"
+                android:textSize="12sp"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/cosrx" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Nggak hanya vitamin C dan niacinamide saja, daily toner ini juga punya kandungan bahan aktif berupa AHA dan BHA. Namun, kamu nggak perlu khawatir karena semua kandungan aktif di dalam toner ini mempunyai persentase yang cukup kecil. AHA sebesar 0,105%, BHA sebesar 0,03%, dan vitamin C sebesar 0,02%, jadi dianggap aman digunakan sehari-hari. Dengan kandungan bahan aktif tersebut, toner ini tidak hanya mampu mengangkat sel kulit mati tapi juga membuat tekstur kulit lebih halus dan cerah."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Nature Republic Vitapair C Dark Spot Serum"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/nature" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Sudah pernah lihat deretan produk vitamin C dari Nature Republlic? Nah, salah satunya serum yang ditujukan untuk pemilik dark spot, nih. Mengandung 7,9% Fresh Jeju Lemon, produk ini mampu mengatasi pigmentasi, mencerahkan kulit dan memudarkan dark spot. Selain itu ada juga kandungan niacinamide yang mampu melawan pertumbuhan jerawat. Nggak kalah menarik, kamu bisa temui kandungan Centella asatica juga dalam produk ini yang mampu menenangkan kemerahan dan melembapkan kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Jumiso All Day Vitamin Nourishing and Recharging Wash Off Mask"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/jumiso" />
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Dalam rangkaian produk All Day Vitamin punya Jumiso, ada juga produk wash off mask yang menarik buat dijajal. Masker ini cocok untuk mengembalikan kondisi kulit yang lelah dan efektif membuat kulit lebih sehat bercahaya. Diformulasikan dengan 15 vitamin complex, masker wash off ini dapat menghidrasi kulit. Sementara vitamin C dan niacinamide di dalamnya efektif dalam mencerahkan kulit, mengatasi kulit kusam, dan sebagai eksfoliator lembut bagi kulit."  android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Saturday Skin Yuzu Vitamin C Sleeping Mask"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/saturday" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Lagi cari sleeping mask berkandungan vitamin C? Produk dari Saturday Skin ini bisa jadi pilihan. Fungsi utamanya untuk mencerahkan kulit dengan kandungan seperti vitamin C, niacinamide dan retinol di dalamnya. Kaya akan vitamin C, overnight mask ini juga diklaim efektif menstimulasi pembentukan kolagen, menangkal radikal bebas dan meratakan warna kulit. Tekstur kulit pun terasa lebih kenyal dan segar setelah penggunaan masker selama semalaman."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Some By Mi Yuja Niacin Brightening Moisture Gel Cream"/>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/some"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Vitamin C yang terkandung dalam produk ini berasal dari 90% Yuja Extract yang mampu menutrisi dan melembapkan kulit. Sementara kandungan niacinamide di dalamnya dapat mencerahkan kulit, memudarkan freckles juga noda hitam. Menariknya, produk asal Korea Selatan ini bebas dari 20 kandungan berbahaya dan mengandung 10 macam vitamin yang mampu merevitalisasi kulit. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

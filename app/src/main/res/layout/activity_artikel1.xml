@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical"
+    tools:context=".Artikel.Artikel1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Produk Perawatan Tubuh Dengan Kandungan Mentimun"
+                android:textColor="@color/ungu"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Sesi merawat tubuh dengan produk kecantikan bisa jadi momen me time yang menyenangkan. Terlebih jika produk yang digunakan tidak hanya memberi perlindungan sekaligus membersihkan kulit, tapi juga punya aroma menyegarkan yang bisa meningkatkan mood. Dari sekian banyak varian aroma, mentimun cukup populer digunakan sebagai komposisi dalam produk perawatan tubuh. Selain kaya kandungan air, vitamin, dan mineral, ternyata buah mentimun juga bisa memberi efek menyenangkan saat dimanfaatkan sebagai produk perawatan kulit. Berikut Beauty Journal hadirkan sederet produk perawatan tubuh yang bisa jadi opsi menarik!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="The Body Shop Cool Cucumber Shower Gel"
+                android:textColor="@color/pinnks"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/bodyshop" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Pembersih tubuh bertesktur gel dengan aroma mentimun yang menyegarkan. Diperkaya dengan Community Trade sugarcane dari Paraguay untuk membantu membersihkan kulit, sekaligus menjaganya tetap terasa halus dan lembut. Tak ketinggalan kandungan menthol turut dihadirkan untuk memberikan sensasi dingin yang menyegarkan. Shower gel berukuran 250 ml ini bisa didapatkan seharga Rp99.000."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Scarlet Body Shower Cucumber"
+                android:textColor="@color/pinnks"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/sc" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Saat digunakan sebagai produk perawaan tubuh, mentimun dipercaya mampu memberikan kesegaran, mencerahkan, hingga menjaga kelembapan kulit. Scarlett Shower Scrub Cucumber yang dibanderol seharga Rp75 ribu ini, dilengkapi dengan tekstur butiran scrub lembut yang akan memaksimalkan terangkatnya kotoran di kulit. Cocok dipakai setelah seharian beraktivitas!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dove Go Fresh Cucumber and Green Tea Antiperspirant Deodorant Roll On"
+                android:textColor="@color/pinnks"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/dove" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Tidak hanya produk pembersih tubuh, manfaat dan kesegaran aroma mentimun juga bisa diperoleh dari deodorant, yaitu Dove Go Fresh Cucumber and Green Tea Antiperspirant Deodorant Roll On. Diklaim mampu memberikan perlindungan 48 jam, produk ini turut diperkaya 1/4 moisturising cream untuk ketiak yang lebih halus dan lembut. Tak kalah penting, produk ini juga bebas kandungan alkohol, sehingga cocok untuk digunakan para pemilik kulit sensitif"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bath and Body Works Cucumber Melon Ultra Shea Body Cream"
+                android:textColor="@color/pinnks"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/bath" />
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:text="Kombinasi aroma mentimun, grapefruit, melon dan sheer woods memberi sensasi menyegarkan sekaligus melembapkan kulit. Tak tanggung-tanggung, produk ini diklaim mampu menjaga kelembapan kulit selama 24 jam. Kandungan shea dan cocoa butter, serta aloe menghadirkan tekstur yang kaya pelembap, tapi juga tetap terasa ringan dan mudah menyerap di kulit."
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="12sp"></TextView>
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Dewi Sri Spa Cucumber Melon Body scrub"
+                    android:textColor="@color/pinnks"
+                    android:textSize="12sp"></TextView>
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/dewi" />
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:text="Cucumber Melon Body Scrub dari Dewi Sri Spa menghadirkan produk eksfoliasi yang diperkaya scrub lembut untuk mengangkat sel kulit mati dan kotoran yang menempel di kulit. Tak hanya membersihkan, produk ini juga merangsang pertumbuhan sel kulit baru, sehingga tampilan kulit tetap lembut dan tidak kusam. Dengan aroma yang menyegarkan, tentunya produk ini bisa jadi pilihan untuk meningkatkan mood saat mandi di pagi hari. Ssst, gunakan produk body care dalam varian yang sama agar aroma mentimun semakin kuat dan bertahan seharian, ya! Bagi yang penasaran ingin mencobanya, produk ini dibanderol seharga Rp313 ribuan."
+                    android:textColor="@color/ic_launcher_background"
+                    android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Beauty Skin Type</string>
+    <string name="title_activity_tab_solusi">tab_solusi</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_halaman__data">Halaman_Data</string>
+    <string name="Nama">Nama</string>
+    <string name="Jenis_Kelamin">Jenis_kelamin</string>
+    <string name="Umur">Umur</string>
+    <string name="Alamat">Alamat</string>
+    <string name="HASIL">HASIL</string>
+    <string name="SIMPAN">SIMPAN</string>
+    <string name="Iya">Iya</string>
+    <string name="Tidak">Tidak</string>
+    <string name="HasilDiagnosa">HasilDiagnosa</string>
+    <string name="Jenis_Kulit">Jenis_Kulit</string>
+    <string name="Persentase">Persentase</string>
+    <string name="tambah">tambah</string>
+    
+    <string-array name="jeiskelaminn">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <array name="jeniskel">
+        <item>Jenis Kelamin</item>
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </array>
+    <array name="cfuser">
+        <item>0.2</item>
+        <item>0.4</item>
+        <item>0.6</item>
+        <item>0.8</item>
+        <item>1</item>
+    </array>
+
+    <string name="login">Login</string>
+
+</resources>

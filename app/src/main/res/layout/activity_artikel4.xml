@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical"
+    tools:context=".Artikel.Artikel4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Inilah Penyebab Pori-pori Membesar dan Solusinya!"
+                android:textColor="@color/ungu"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Pori-pori besar merupakan salah satu permasalahan kulit wajah yang bisa dialami oleh siapa saja, khususnya bagi yang tinggal di negara tropis seperti Indonesia. Berdasarkan survei kondisi kulit dan perawatan kecantikan yang dilakukan oleh PT Social Bella Indonesia terhadap wanita Indonesia tahun 2019, sebesar 53% menyatakan punya masalah dengan pori-pori yang besar. Selain mengganggu penampilan, terkadang pori-pori yang membesar juga menyebabkan pengaplikasian makeup jadi tidak sempurna. Lantas, apa yang menyebabkan pori-pori bisa membesar? Bagaimana solusinya? Menurut ahli, berikut informasi selengkapnya! "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="1. Pori Tersumbat"
+                android:textSize="12sp"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/pores" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Pada umumnya, debu dan polusi yang menumpuk di bawah permukaan kulit dapat masuk ke dalam pori-pori dan membuatnya tersumbat dan membesar. Meski terkesan sepele, pori-pori yang membesar justru memicu permasalahan kulit lainnya, seperti jerawat, komedo, dan perubahan tekstur kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="“Pori-pori yang tersumbat biasanya disebabkan oleh makeup, debu, dan noda yang menutup pori-pori, sehingga pori-pori yang tadinya kecil jadi tampak membesar secara bertahap. Terlebih, nantinya hal ini akan membuat warna dan tekstur kulit jadi terlihat tidak merata,” jelas dr. Kardiana Purnama Dewi, Sp.KK."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="2. Pori Berminyak"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/berminyak" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Selanjutnya, pori-pori membesar disebabkan karena adanya produksi sebum yang berlebihan pada wajah. Penyebabnya bisa beragam, mulai dari makanan yang dikonsumsi, stres, paparan sinar matahari, hingga pemilihan produk perawatan yang salah. Menurut dr. Dewi, kalau kulit berminyak, tentu kelenjar produksi sebumnya akan banyak. Maka itu, saluran yang harusnya terlihat rapat, jadi lebih terbuka dan tampak. Karena lebih tampak, maka penampang kulit di luar juga akan terlihat lebih besar dan jelas. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="3. Pori Menua"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/wrinkles" />
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Tak bisa dipungkiri bahwa semakin bertambahnya usia, tentu kondisi kulit juga akan berubah, misalnya pada masalah elastisitas kulit. Berkurangnya elastisitas kulit umumnya disebabkan karena produksi kolagen yang melambat atau sering terkena paparan sinar matahari. “Karena proses penuaan, kemampuan sel untuk meregenerasi kulit akan berkurang dan secara otomatis kolagen dan elastisitas kulit juga berkurang. Jadi yang harusnya kulit menyangga dengan kencang dan baik, menjadi kisut dan mulai tampak ada pori-pori,” papar dr. Dewi, "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="4. Genetik "
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/genetic" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Selain faktor eksternal, ternyata pori-pori membesar juga bisa disebabkan oleh faktor internal, seperti genetik atau keturunan. Misalnya, orang yang terlahir dengan jenis kulit berminyak, maka cenderung akan memiliki pori-pori yang lebih besar."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Namun, dr. Dewi menjelaskan jika faktor genetik tersebut disertai dengan faktor pemicu lainnya, seperti gaya hidup yang tidak sehat, sering terpapar sinar matahari dan polusi, atau malas melakukan perawatan wajah, maka nantinya kulit akan semakin berminyak, pori-pori tersumbat, dan muncul komedo. Berbagai faktor inilah yang akan membuat pori-pori wajah terlihat semakin besar."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Untuk meminimalisir tampilan pori yang besar, tentu diperlukan rangkaian perawatan kulit yang tepat, salah satunya dengan menggunakan masker. Nah, salah satu opsi produk yang menarik dicoba adalah Rojukiss Pore Expert Serum Mask. Bagi yang belum tahu, Rojukiss merupakan merek kecantikan asal Korea Selatan yang berdiri sejak 2007 silam."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Diformulasikan oleh dermatologist dan telah melewati uji klinis, rangkaian Rojukiss Pore Expert Serum Mask terbukti efektif merawat dan menyamarkan tampilan pori dan aman digunakan setiap hari,” ujar Nurul Sulisto, Head of Brand Development Rojukiss Indonesia. Menariknya lagi, produk-produk yang ditawarkan pun terjangkau."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Mengusung tema #noPOREblem, Rojukiss ingin mengajak para wanita Indonesia untuk merawat kulit sehingga terhindar dari masalah pori-pori yang besar (POREblem). Rojukiss hadir dalam 6 varian yang tidak hanya berfungsi mengencangkan pori, tapi juga merawat masalah kulit lainnya, antara lain:"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Bright Pore Expert → Selain membantu mengecilkan pori, varian ini mengandung Niacinamide, Vitamin C dan E, serta Arbutin yang dapat mencerahkan dan menyamarkan bintik hitam akibat bekas jerawat dan paparan sinar matahari. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Perfect Pore Expert → Diformulasikan dengan ekstrak Willow Bark, Witch Hazel, Chestnut Shell, dan Centella asiatica, varian ini diklaim membantu mengecilkan tampilan pori-pori, menutrisi dan membuat kulit tampak halus, mulus serta lembap."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Firm Pore Expert  → Tak hanya berfungsi mengencangkan pori, kandungan Peptides, Hyaluronic Acid, Adenosine, dan Centella asiatica pada essence-nya dapat membuat kulit terasa lebih halus, kencang, dan terhidrasi. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="20dp"
+                android:text="Acne Pore Expert → Varian ini sangat cocok untuk pemilik kulit berminyak karena ada kandungan BHA, ekstrak Bija dan Witch Hazelmyang mampu mengontrol produksi sebum berlebih sekaligus mengecilkan tampilan pori-pori."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Gluta Pore Expert → Masker dengan kandungan Gluthatione dan Witch Hazel ini secara efektif membantu mengecilkan tampilan pori-pori dan membuat kulit cerah, halus, serta lembap."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:text="Hya Pore Expert → Cocok untuk merawat kulit dehidrasi yang tampak kusam, kering, dan kendur, varian ini mengandung ekstrak Hyaluronic Acid dan Witch Hazel yang diklaim menghidrasi kulit dan mengencangkan tampilan pori.  "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Bagi yang tertarik mencoba, Anda bisa mendapatkan keenam varian Rojukiss Pore Expert Mask dengan harga Rp21.000 di Sociolla, Indomaret, Alfamart, Guardian, Watsons, Century, dan toko kosmetik lainnya. Ssst, kalau sudah ada yang pernah coba produk di atas, jangan ragu untuk menuliskan ulasan Anda pada kolom komentar di bawah, ya!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical"
+    tools:context=".Artikel.Artikel5">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Ini dia Pilihan Lipstik Hitam Makeup Halloween Mulai Drugstore Hingga High-End"
+                android:textColor="@color/ungu"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Menjelang akhir Oktober, berbagai tema Halloween hadir di media sosial. Mulai dari tren makeup hingga dekorasi rumah bernuansa menyeramkan. Meski bukanlah hari raya resmi agama tertentu, Halloween sudah menjadi budaya universal yang dirayakan setiap tanggal 31 Oktober. Meski tidak semua merayakannya, namun riasan menyeramkan hingga dekor bernuansa pumpkin atau kelelawar cukup familiar. Biasanya, para beauty enthusiast merayakan Halloween dengan menciptakan inspirasi makeup yang dapat digunakan pada malam Halloween. Dandanan mereka pun cukup kental dengan wajah yang pucat dan dilengkapi lipstik hitam. Tak heran jika banyak brand makeup kembali mempromosikan shade gelap dari koleksi lipstik mereka. Bila kamu salah satunya, simak dulu yuk rekomendasi pilihan lipstik hitam untuk Halloween dari Beauty Journal!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="NYX Suede Matte Lipstick - Doom"
+                android:textSize="12sp"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/nyx" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Menjajal lipstik berwarna hitam memang membutuhkan keberanian yang cukup besar, namun jika momennya tepat, tak perlu ragu untuk membeli produk yang satu ini. Formulanya cukup ringan dengan hasil akhir yang cenderung matte. Harganya yang terjangkau pun tidak akan membuat Anda merasa rugi karena hanya perlu merogoh kocek sebesar Rp117 ribu untuk mendapatkan tampilan dramatis dan menakutkan."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="The Body Shop Colour Crush Lipstick - 910 Milan Pansy"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/bodyshop"/>
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Dilengkapi dengan marula oil, beeswax, dan cherry seed oil menjadikan lipstik ini tidak hanya memberikan riasan Halloween yang diinginkan, namun juga bibir yang tetap lembap dan sehat. Lipstik ini memiliki pigmentasi yang cukup kuat meski hasil akhirnya terasa ringan di bibir. Namun, Anda yang tidak menyukai aroma tertentu patut berhati-hati karena lipstik ini memiliki aroma bunga mawar yang cukup segar."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Revlon Super Lustruous The Luscious Matte Lipstick - Onyx"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/revlon" />
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Tak bisa dipungkiri jika produk makeup high end merupakan investasi dalam dunia kecantikan. Namun, menggunakan produk drugstore untuk acara yang hanya dilakukan sebulan sekali juga bukanlah suatu kesalahan. Belum lagi jika Anda berhasil menemukan produk dengan kualitas unggulan dan harga yang cukup affordable seperti lipstick matte dari Revlon ini. Meski memiliki hasil akhir matte, lipstik ini tidak akan crack atau membuat bibir terasa kering dan powdery karena kandungan moringa oil-nya."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Stunna Lip Paint Longwear Fluid Lip Color - Uninvited"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/stunna" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Tak hanya produk drugstore, beberapa brand luxury rupanya memiliki varian shade hitam untuk koleksi lipstik mereka. Fenty Beauty sendiri memiliki shade Uninvited dari koleksi Stunna Lip Paint Longwear Fluid Lip Color yang mereka miliki. Dibanderol seharga $25 atau setara dengan Rp366 ribu, Anda bisa mendapatkan tampilan bibir yang dapat bertahan semalaman meski dengan penggunaan minimal."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Anastasia Beverly Hills Matte Lipstick - Midnight"/>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/anastasia"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Dikenal sebagai salah satu makeup artist paling dipercaya Hollywood, produk riasan yang diluncurkan ABH tentu patut dijadikan salah satu pertimbangan. Pasalnya, selain unggul dengan tekstur dan hasil akhir matte, pengaplikasiannya pun cenderung mudah karena ujung lipstik yang runcing dan permukaan yang cukup landai. Tergolong lebih terjangkau dibandingkan Fenty Beauty, Anda bisa membeli lipstik ini seharga Rp322 ribu."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

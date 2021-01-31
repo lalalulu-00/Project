@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Artikel.Artikel7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Makeup Remover, Cleanser, Micellar Water, Apa Sih Bedaannya?"
+                android:textColor="@color/ungu"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Pasti Anda sudah paham kalau aturan perawatan kulit nomor satu dan terpenting adalah melakukan pembersihan wajah dengan baik. Dalam rutinitas pembersihan wajah, seringkali orang memilih jenis yang berbeda-beda, baik itu makeup remover, micellar water, maupun cleanser. Namun, apakah Anda sudah paham perbedaan ketiganya? "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Meskipun secara kasat mata memiliki fungsi yang terbilang sama, yakni sama-sama membersihkan kotoran pada wajah, tetapi di antara ketiganya punya kandungan maupun fungsi utama yang berbeda, lho! Nah, berikut ini sedikit jawaban dari pertanyaan seputar cleansing yang mungkin terlintas dalam benak Anda. Simak, yuk!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="1. Makeup Remover"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/cleann" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Apa itu makeup remover?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Sesuai dengan namanya, makeupremover bermanfaat karena dapat menghapus foundation, blushon, concealer, eyeshadow, dan makeup lain dari permukaan kulit Anda. Makeupremover dapat ditemukan dalam berbagai tekstur dan formulasi, tetapi yang terbaik adalah yang dapat menghilangkan riasan Anda tanpa menghilangkan minyak alami kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:gravity="center"
+                android:text="Bagaimana cara kerja makeup remover?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Makeup biasanya membutuhkan sedikit minyak untuk larut dan dihilangkan. Dalam hal ini, makeupremover memiliki komponen minyak yang bekerja langsung pada riasan, berbeda dengan pembersih, di mana minyak diemulsi dengan air untuk membuat formula seperti krim."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Apa saja jenis makeup remover?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Makeup remover biasanya berupa cairan, dan bisa dalam satu fase (minyak), dua fase (minyak dan air yang berbeda), dan air micellar (tetesan minyak tersuspensi di air)."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="2. Cleanser"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/cleanser" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Apa itu Cleanser?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Cleanser atau pembersih memiliki fungsi utama untuk menghilangkan kotoran, keringat, sebum, dan kotoran lain yang menyumbat pori dari kulit. Ini juga berfungsi untuk mencegah kotoran bercampur dengan bakteri dan menimbulkan kerusakan wajah."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:gravity="center"
+                android:text="Dapatkah Clenser menghapus Makeup?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Di sisi lain, cleanser juga bisa menghilangkan riasan tipis, berkat kandungan minyak dan air di dalamnya. Namun, ini hanya fungsi lainnya sehingga Anda tidak bisa mengandalkan cleanser saja untuk membersihkan wajah dan makeup."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Apa saja jenis Cleansee?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Cleanser tersedia dalam berbagai jenis, ukuran, dan tekstur, termasuk busa, gel, minyak, krim, balm, dan eksfoliator. Anda dapat menentukan jenisnya dengan mengetahui terlebih dahulu jenis kulit dan masalah kulit Anda, karena beberapa perawatan pembersih wajah lebih cocok untuk jenis kulit tertentu daripada yang lain."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="3. Micellar Water"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="200dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:textSize="12sp"
+                app:srcCompat="@drawable/micellar" />
+
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Apa itu Micellar Water?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Micellar water mengandung tetesan minyak pembersih kecil yang tersuspensi di dalam air. Tetesan minyak (alias micelles) membersihkan kotoran dan riasan. Micellar water baik untuk riasan lembut dan pembersihan umum, tetapi biasanya kurang tepat untuk pembersihan makeup waterproof atau riasan wajah tebal."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Bagaiman aCara kerja Micellar Water?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Tetesan minyak sangat kecil yang tersuspensi di dalam air berfungsi untuk menarik minyak dan kotoran layaknya magnet, sehingga jenis pembersih satu ini dapat membuat wajah bersih hanya dalam satu sapuan. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Micellar water juga disebut-disebut dapat membersihkan kotoran dan sisa makeup hingga ke dalam pori-pori. Bahkan tak jarang produk micellar water yang dilengkapi dengan formula lain, seperti pencerah, anti jerawat, hingga pelembap. Dengan kata lain, micellar water juga berfungsi untuk merawat kondisi kulit. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="KESIMPULAN"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Lantas, Apa perbedaan Ketiganya?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Cleanser mencakup semua produk yang membersihkan minyak berlebih, kotoran, residu, dan riasan tipis dari wajah. Mereka lebih BERTUJUAN UMUM daripada makeup remover, yang biasanya lebih bertarget dengan formula kuat untuk menghilangkan makeup waterproof, termasuk mascara dan eyeliner."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Sedangkan micellar water, berfungsi menghapus keduanya, baik makeup dan kotoran. Namun, menggunakan micellar water saja tidak cukup, karena jenis ini biasanya kurang maksimal dalam membersihkan wajah, terutama riasan tahan air."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Bagaimana langkah pembersih yang tepat?"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Meskipun makeupremover, micellar water, dan cleanser digunakan untuk menghilangkan kotoran dan makeup, ketiganya adalah langkah perawatan kulit berbeda yang seharusnya digunakan bersama-sama, dengan metode double cleansing."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Teknik kecantikan Korea ini memastikan semua bekas kotoran dan riasan secara efektif dihilangkan dari permukaan kulit. Untuk mengikuti tekniknya, mulailah dengan menghapus riasan dengan makeupremover untuk makeup waterproof atau makeup tebal. Bisa juga menggunakan micellar water untuk menghapus riasan tipis. Kemudian tindak lanjuti dengan pembersih wajah favorit Anda, baik itu foam, cream atau gel."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

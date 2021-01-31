@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tema"
+    tools:context=".Artikel.Artikel9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Apa Benar Tingling Sensation Tanda Produk Skin Care Sedang Bekerja?"
+                android:textColor="@color/ungu"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Saat mengaplikasikan suatu produk skin care, apakah Anda pernah merasa perih atau cekit-cekit? Rasa cekit-cekit tersebut biasa disebut dengan tingling sensation. Ada yang bilang bahwa tingling sensation terjadi saat kulit bereaksi karena produk tidak cocok. Tapi, ada juga yang bilang justru tingling sensation menandakan produk tersebut sedang bekerja. Jadi, mana sih yang benar? Yuk, simak ulasannya!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/pinkmuda"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="Tingling Sensation"
+                android:textSize="14sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/kulitmerah" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Tingling sensation pada skin care biasanya ditandai dengan rasa cekit-cekit, perih, sensasi panas, atau sakit seperti ditusuk-tusuk. Tingkat sensasi ini bisa berbeda-beda bagi tiap orang, mulai dari sedikit rasa geli, hingga rasa sakit yang lebih nyata. Tingling sensation bisa terjadi pada sebagian area wajah saja atau seluruh wajah."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Kenapa tingling sensation bisa terjadi?"
+                android:textColor="@color/pinkmuda"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/pores" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Untuk tahu apakah tingling sensation berarti produk skin care bekerja atau tidak, Anda perlu tahu terlebih dahulu, kenapa suatu produk skin care bisa menyebabkan tingling sensation. Ada beberapa alasan kenapa tingling sensation bisa terjadi. Yang pertama terkait dengan kadar pH kulit. Menurut facialist dan founder Spa Radiance, Angelina Umansky, tingling sensation bisa terjadi saat pH suatu produk lebih rendah atau asam dibanding pH alami kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Alasan kedua yang juga paling sering terjadi adalah karena Anda menggunakan produk dengan kandungan exfoliant. Menurut dermatolog Purvisha Patel, kandungan AHA bisa menyebabkan tingling sensation karena mempenetrasi atau menembus lapisan kulit untuk bekerja."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/sensitif" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Masih berkaitan dengan exfoliant, kandungan yang mengeksfoliasi seperti salicylic acid (BHA), AHA seperti lactic acid dan glycolic acid, maupun vitamin C juga bisa menyebabkan rasa cekit-cekit karena kandungan tersebut bekerja mengelupas kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Hal ini berarti ada sebagian lapisan kulit yang diangkat yang akan diganti dengan permukaan kulit yang baru dan tentu saja berpengaruh pada saraf, sehingga memberikan reaksi pada kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Alasan ketiga, beberapa kandungan seperti menthol, peppermint, atau eucalyptus yang memberikan efek dingin pun bisa membuat kulit bereaksi dan terasa cekit-cekit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Meskipun kadarnya berbeda-beda, Anda yang memiliki kulit sensitif paling rentan merasakan tingling sensation. Jadi, untuk menjawab pertanyaan apakah tingling sensation adalah tanda produk skin care bekerja, jawabannya adalah ya, dengan beberapa catatan"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Salah satu catatan yang perlu diingat adalah produk yang tidak menyebabkan tingling sensation (bahkan produk eksfoliator sekalipun) tidak lantas berarti produk tersebut tidak bekerja efektif. Bisa saja kadar eksfoliator tersebut cukup rendah, sehingga produk bekerja secara gentle."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Kapan Kita tahu bahwa tingling sensation adalah tanda produk cocok?"
+                android:textColor="@color/pinkmuda"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/tingling" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Walau ada beberapa alasan kenapa tingling sensation dapat menjadi tanda suatu produk skin care bekerja, dalam beberapa situasi tingling sensation bisa menjadi 'alarm bahaya' pada kulit Anda. Coba cek list di bawah untuk tahu kapan tingling sensation adalah tanda bahaya, ya:"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:justificationMode="inter_word"
+                android:text="1. Rasa cekit-cekit berlangsung lebih dari 5-15 menit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:justificationMode="inter_word"
+                android:text="2. Rasa cekit-cekit tidak hilang jika Anda mencuci muka dan membilasnya."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:justificationMode="inter_word"
+                android:text="3. Rasa cekit-cekit cenderung parah, sampai terasa sangat sakit, sangat perih, atau kulit terasa terbakar, disertai dengan kulit yang terlihat memerah."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:justificationMode="inter_word"
+                android:text="4. Setelah penggunaan produk selama 2-3 minggu, rasa cekit-cekit tidak berkurang, bahkan makin parah."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Jika tingling sensation yang terjadi pada Anda tidak kunjung berkurang, terasa sangat perih, bahkan memperparah kondisi kulit, maka segera stop penggunaan produk. Bisa jadi kulit Anda tidak cocok dengan kandungannya, mengalami alergi, iritasi, atau skin barrier Anda rusak. Sebaiknya, konsultasikan kondisi kulit Anda dengan dokter kulit, ya!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

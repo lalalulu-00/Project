@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tema"
+    android:layout_height="match_parent"
+    tools:context=".Artikel.Artikel3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Begini Caranya Menghilangkan Blackhead Menurut Para Ahli"
+                android:textColor="@color/ungu"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Komedo atau blackhead masih menjadi permasalahan kulit yang jadi musuh terbesar selain jerawat. Membuat wajah menjadi tampak kusam dengan warnanya yang hitam, blackhead perlu diatasi dengan tepat. Alih-alih menghilangkannya, penanganan yang kurang tepat bisa membuatnya menjadi semakin banyak dan semakin parah. Nah, tak perlu bingung, karena para dermatolog punya cara yang ampuh dan tepat untuk membantu mengatasi masalah komedo hitam atau blackhead. Apa saja? Yuk, simak penjelasan berikut ini!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Gunakan skin care dengan kandungan salicylic acid"
+                android:textSize="12sp"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/sali" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Joshua Zeichner, direktur di cosmetic and clinical research di Mount Sinai Hospital New York City, menyarankan untuk rutin menggunakan skin care dengan kandungan salicylic acid untuk mengatasi masalah blackhead yang terbilang masih belum terlalu parah." android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Masuk dalam salah satu jenis BHA, salicylic acid memiliki kemampuan untuk mengangkat minyak berlebih dan mengeksfoliasi sel kulit mati yang menumpuk di wajah yang menyebabkan tampilan blackhead."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Pilih produk scrub wajah yang ramah di wajah, yang akan bekerja sebagai physical exfoliator sedangkan kandungan salicylic acid akan bekerja sebagai chemical exfoliator. Rekomendasi produk yang bisa Anda coba di antaranya adalah St. Ives Blackhead Clearing Green Tea Scrub atau Clinique's Blackhead Solutions 7 Day Deep Pore Cleanse and Scrub."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Gunakan Krim dengan kandungan Retinoid"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/retii" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Untuk komedo hitam yang tampilannya sudah sangat mengganggu dan sulit untuk diatasi, Shari Marchbein, seorang board-certified dermatologist and clinical assistant professor of dermatology di New York University menyarankan untuk menggunakan krim dengan kandungan retinoid."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Menurutnya, retinoid dapat membantu mengatasi komedo dan pori-pori yang tersumbat dengan mengurangi sel-sel kulit mati yang menyumbat pori-pori, serta mempercepat laju pembalikan dan regenerasi kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Meski ada banyak mitos seputar kandungan ini, dengan dosis yang tepat dan digunakan sesuai kebutuhan kulit, maka retinoids bisa menjadi kandungan yang ampuh mengatasi komedo hitam yang Anda alami. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Hindari memencet komedo sembarangan"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/pencet" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Sama kasusnya dengan jerawat, kesalahan yang seringkali dilakukan oleh banyak orang yang membuat komedo menjadi semakin parah adalah karena sembarangan saat memencet atau mengeluarkannya sendiri."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Dermatolog Joshua Zeichner kerap kali memiliki pasien yang datang ke klinik dengan kondisi kulit yang memerah atau iritasi karena pengangkatan komedo yang dilakukan sendiri dan sembarangan. Hindari memencet dan mengeluarkan komedo dengan menggunakan tangan ataupun alat yang tidak steril. Menurut Zeichner, hal ini justru membuat trauma pada kulit dan menyebabkan infeksi serta bekas luka pada kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Teksturnya yang ringan juga membuat produk dengan mudah meresap ke kulit tanpa meninggalkan whitecast. Bagi yang tertarik menjajal, sunscreen ini dijual di Sociolla seharga Rp450.000 (50 ml)."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Jangan andalkan pore strip saja"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/pore" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Berkat kepraktisannya, pore strip atau pore pack menjadi salah satu solusi yang banyak digunakan untuk mengangkat komedo atau blackhead. Dr. Hadley King, dermatolog asal Manhattan mengemukakan bahwa penggunaan pore strips hanya bekerja mengangkat komedo hitam di bagian permukaan kulit saja namun tidak bisa mencegah komedo datang lagi."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Ia menyarankan bahwa cara paling tepat selain menggunakan pore strips adalah dengan penggunaan skin care yang tepat untuk mengatasi komedo dari akarnya. Selain itu menurutnya, penggunaan pore strips juga tidak dianjurkan bagi Anda yang memiliki kulit sensitif karena proses pengangkatan komedo bisa memicu munculnya iritasi. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="Jangan lewatkan penggunaan pelembap"
+                android:textSize="12sp"></TextView>
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/cream" />
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:text="Terlepas dari apapun jenis kulit Anda, termasuk berminyak maupun kombinasi, penggunaan pelembap atau moisturizer adalah wajib hukumnya. Jeremy Fenton, seorang dermatolog yang berbasis di New York City mengatakan bahwa penggunaan moisturizer dengan benar dan rutin akan membantu menjaga kelembapan kulit sehingga produksi minyak di wajah menjadi lebih terkontrol. Karenanya, kemungkinan untuk minyak berlebih menumpuk di pori-pori bersama bakteri dan kotoran yang dapat menyebabkan komedo maupun jerawat bisa dicegah."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

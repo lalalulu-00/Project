@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_b"
+    tools:context=".Panduan.Menu_Tips">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="= PETUNJUK PENGGUNAAN ="
+                android:textColor="@color/ungumuda"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="1. Klik Menu skin check"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="2. Pilih Gejala Jenis Kulit yang sesuai "
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="55dp"
+                    android:layout_marginTop="10dp"
+                    android:text="3. Masukan Nilai yang sesuai dengan Klik 2x pada tab (Pilih Nilai)"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="70dp"
+                    android:text="Pasti Tidak= 0"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="100dp"
+                    android:text="Tidak Tahu= 0.2"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="130dp"
+                    android:text="Sedikit Yakin= 0.4"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="160dp"
+                    android:text="Cukup Yakin= 0.6"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="190dp"
+                    android:text=" Yakin= 0.8"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginTop="220dp"
+                    android:text="Sangat Yakin= 1"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="4. Hasil Diagnosa akan muncul di halaman sama di bawah button HASIL"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="5. Pilih menu solusi untuk mengetahui Rangkaian Perawatan sesuai dengan jenis kulit"
+                    android:textColor="@color/ungusoft"
+                    android:textSize="18sp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

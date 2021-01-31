@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_ungujuga"
+    tools:context=".LoginRegis.Menu_Register">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="50dp"
+        android:text="==   REGISTER   =="
+        android:textColor="@color/pinnks"
+        android:textSize="36sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="180dp"
+            app:cardBackgroundColor="@color/ic_launcher_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                app:srcCompat="@drawable/id"></ImageView>
+
+
+            <EditText
+                android:id="@+id/edtnama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Nama" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="40dp"
+            app:cardBackgroundColor="@color/ic_launcher_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/email"></ImageView>
+
+
+            <EditText
+                android:id="@+id/edtemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Email" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            app:cardBackgroundColor="@color/ic_launcher_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/lock"></ImageView>
+
+            <EditText
+                android:id="@+id/etpass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnregis"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/pinkmuda"
+            android:text="Register"
+            android:textColor="@color/ungusoft"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="400dp"
+        android:layout_marginStart="20dp"
+        app:cardBackgroundColor="#F8C1D4">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="30dp"
+                app:cardBackgroundColor="#F8C1D4">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="98dp"
+                    android:layout_height="105dp"
+                    app:srcCompat="@drawable/berminyak" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="451dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="Rutinitas Perawatan Kulit Berminyak"
+                    android:textColor="@color/ungu"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="110dp"
+                    android:text="1. Bersihkan wajah dengan sabun berbentuk busa atau foam yang memiliki kandungan Salicylic acid dengan free alcohol dan free fragrance."
+                    android:textColor="@color/ungu"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="180dp"
+                    android:text="2. Gunakan Hydrating Toner yang mengandung antioksidan seperti : Green tea, Centella Asiatica, Aloe vera, Chamomile. Karena kandungan tersebut mengatasi inflamasi, peradangan serta mencegah timbulnya bakteri."
+                    android:textColor="@color/ungu"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="280dp"
+                    android:text="3. Step selanjutnya gunakan Serum dengan kandungan Niacinamide (Vitamin B3) dapat meminimalkan pori-pori yang terlihat besar"
+                    android:textColor="@color/ungu"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="350dp"
+                    android:text="4. Kemudian gunakan Moisturizer Gel oil-free agar kulit tidak semakin berminyak, pilih juga yang non-comedogenic agar tidak menyumbat pori-pori, pilih moisturizer dengan tekstur gel atau watery dengan kandungan Hyaluronic Acid agar mudah meresap"
+                    android:textColor="@color/ungu"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="450dp"
+                    android:text="5. Terakhir Gunakan Sunscreen dengan jenis Gel atau Lotion dengan kandungan Zinc oxide dan Titanium dioksida dan non-alcohol"
+                    android:textColor="@color/ungu"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="530dp"
+                    android:text="Untuk Rutinitas perawatan pada malam hari sama dengan pagi kecuali Sunscreen dan Hydrating toner diganti dengan Exfoliating toner dengan kandungan BHA untuk mengangkat sel-sel kulit mati dari wajah agar kotoran dan sebum tidak menutup pori-pori. Exfoliating dilakukan 2x dalam seminggu"
+                    android:textColor="@color/ungu"></TextView>
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

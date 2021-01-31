@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="400dp"
+        android:layout_marginStart="20dp"
+        app:cardBackgroundColor="#E2D1F4">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="30dp"
+                app:cardBackgroundColor="#E2D1F4">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="98dp"
+                    android:layout_height="105dp"
+                    app:srcCompat="@drawable/normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="451dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="Rutinitas Perawatan Kulit Normal"
+                    android:textColor="@color/pinnks"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="110dp"
+                    android:text="1. Bersihkan wajah menggunakan facial foam yang memiliki
+kandungan Vitamin E dan Glycerin"
+                    android:textColor="@color/pinnks"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="160dp"
+                    android:text="2. Setelah membersihkan wajah, Gunakan Hydrating Toner dengan kandungan Aloevera dan Hyaluranic Acid karena mampu menyeimbangkan sekaligus menghidrasi kulit wajah."
+                    android:textColor="@color/pinnks"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="240dp"
+                    android:text="3. Kemudian gunakan Moisturizer Lotion yang memiliki kandungan minyak lebih banyak agar kulit wajah tetap lembab"
+                    android:textColor="@color/pinnks"></TextView>
+
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="300dp"
+                android:text="4. Step terakhir gunakan Sunscreen dengann jenis Lotion/Spray/Stick baik didalam ruangan maupun diluar ruangan serta pilih sunscreen berjenis lotion."
+                android:textColor="@color/pinnks"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="375dp"
+                    android:text="Pada malam hari lakukan Double Cleanser yang memiliki kandungan Glycerin, Emolient, Humektan. Tahapan yang dilakukan sama seperti rutinitas perawatan pagi KECUALI suncreen tidak digunakan untuk malam hari"
+                    android:textColor="@color/pinnks"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/txtnama"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Nama"
+                android:inputType="textCapSentences"
+                android:textColor="@color/ic_launcher_background"
+                android:textColorHint="@color/ic_launcher_background" />
+
+            <EditText
+                android:id="@+id/txtjk"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Jenis_Kelamin"
+                android:inputType="textCapSentences"
+                android:textColor="@color/ic_launcher_background"
+                android:textColorHint="@color/ic_launcher_background" />
+
+
+            <EditText
+                android:id="@+id/txtumur"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Umur"
+                android:inputType="number"
+                android:textColor="@color/ic_launcher_background"
+                android:textColorHint="@color/ic_launcher_background" />
+
+
+            <EditText
+                android:id="@+id/txtalamat"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Alamat"
+                android:inputType="textCapSentences"
+                android:textColor="@color/ic_launcher_background"
+                android:textColorHint="@color/ic_launcher_background" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="1.Saya merasa kulit wajah saya tidak berminyak"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="50dp"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="2. Saya merasa tekstur wajah saya tampak halus"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView2"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="3. Makeup mudah menempel diwajah saya ketika saya menggunakannya"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView3"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="4. Saya merasa kulit saya sehat"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView4"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="5. Tidak ada jerawat diwajah saya"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView5"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="6. Saya mudah dalam memilih makeup"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView6"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="7. Saya merasa pori-pori saya besar di area T-Zone"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView7"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="8. Kulit saya tampak mengkilap"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView8"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="9. Wajah saya sering timbul jerawat"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView9"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+                --
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="10. Saya memiliki permasalahan whitehead (komedo putih)"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView10"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="11. Pori-pori diwajah saya sangat kecil"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView11"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G12"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:layout_height="match_parent"
+                    android:text="12. Saya memiliki tekstur wajah yang tipis"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView12"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="13. Kulit wajah saya sering timbul kerutan"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView13"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+                --
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="14. Sebagian wajah saya berminyak"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView14"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="15. Sebagian kulit saya kering"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView15"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="16. Saya memiliki jerawat diwajah saya"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView16"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:text="17. Makeup sulit menempel diwajah saya"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView17"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="18. Saya sering mengalami alergi di wajah, Ketika menggunakan skincare/makeup baru"
+                    android:layout_marginBottom="60dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView18"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="60dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="19. Kulit saya mudah mengalami iritasi jika terkena sinar matahari"
+                    android:layout_marginBottom="60dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView19"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="20. Kulit wajah saya mudah merah apabila terkena sinar matahari"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView20"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="21. Pembuluh darah kadang terlihat dari permukaan kulit wajah saya "
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView21"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="22. Kulit saya akan mengalami breakout, jika saya menggunakan produk skincare baru"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView22"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="60dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="23. Saya memiliki permasalahan Blackhead diwajah saya"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView23"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="24. Ketika saya bangun tidur, wajah saya tampak mengkilap"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView24"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="25. Kulit saya akan berminyak jika beberapa menit setelah menggunakan facial wash"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView25"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="60dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G26"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="26. Ketika saya menggunakan makeup, setelah beberapa jam makeup akan luntur dibagian T-Zone"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView26"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="60dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G27"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="27. Saya merasa wajah saya tampak kusam"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView27"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G28"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="28. Wajah saya akan gatal jika terkena sinar matahari"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView28"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G29"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="29. Kulit saya mengalami luka bakar jika saya terpapar sinar matahari"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView29"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+                --
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G30"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="50dp"
+                    android:layout_height="match_parent"
+                    android:text="30. Jika wajah saya terkena sinar matahari kulit saya akan menggelap begitu cepat"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView30"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background">
+
+                <CheckBox
+                    android:id="@+id/G31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="31. Kulit saya terasa kering setelah menggunaka facial wash"
+                    android:layout_marginBottom="50dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView31"
+                    android:layout_marginStart="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/pinnk"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:hint="Pilih Nilai 'Ketuk 2x'"
+                    android:layout_marginTop="50dp"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/btnhasil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/ungusoft"
+                android:text="@string/SIMPAN"
+                android:textColor="@color/pinnk"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                app:cardBackgroundColor="#F8C1D4"
+                app:cardCornerRadius="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="=== HASIL DIAGNOSA ==="
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/tv_nama"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_jk"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_umur"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_alamat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_jeniskulit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_persentase"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/tv_Solusi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

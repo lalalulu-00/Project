@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_lagii"
+    tools:context=".LoginRegis.Login_Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/dokter" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/ic_launcher_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/email"></ImageView>
+
+
+            <EditText
+                android:id="@+id/editexttemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Email" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:cardBackgroundColor="@color/ic_launcher_background"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/lock"></ImageView>
+
+            <EditText
+                android:id="@+id/editexttpass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonregis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="500dp"
+            android:background="@color/pinnk"
+            android:text="Register"
+            android:textColor="@color/ungu"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/buttonlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="500dp"
+            android:background="@color/pinkmuda"
+            android:text="LOGIN"
+            android:textColor="@color/ungusoft"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</RelativeLayout>

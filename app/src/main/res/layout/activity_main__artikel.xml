@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_b"
+    tools:context=".Artikel.Main_Artikel">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="500dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="121dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/timun" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Produk Perawatan Tubuh Dengan Kandungan Mentimun"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="121dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/sepeda" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Kamu Gemar Bersepeda??? Sunscreen ini Cocok untuk Kamu"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="121dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/komedo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Begini Caranya Menghilangkan Blackhead Menurut Para Ahli"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="121dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/pori" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Inilah Penyebab Pori-pori Membesar dan Solusinya!"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="6dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/hi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Ini dia Pilihan Lipstik Hitam Makeup Halloween"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="121dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/cerah" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Rekomendasi Skin Care untuk Mencerahkan Kulit"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="121dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/cleanser" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Makeup Remover, Cleanser, Micellar Water, Apa Perbedaannya?"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="121dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/kombucha" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Manfaat Kombucha Untuk Kesehatan Kulit"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    app:srcCompat="@drawable/tingling" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Apa Benar Tingling Sensation Tanda Produk Skin Care Sedang Bekerja?"
+                    android:textColor="@color/pinnks"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/link9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="121dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/kering" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="5 Kandungan Makeup Yang Perlu Dihindari Pemilik Kulit Kering"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="121dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/hiper" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Best Products Untuk Hiperpigmentasi"
+                    android:textColor="@color/pinnks"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/link11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:layout_marginTop="65dp"
+                    android:text="Baca Selengkapnya..."
+                    android:textColor="@color/ungu"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

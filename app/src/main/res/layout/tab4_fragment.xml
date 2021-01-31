@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="400dp"
+        android:layout_marginStart="20dp"
+        app:cardBackgroundColor="#F8C1D4">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="30dp"
+                app:cardBackgroundColor="#F8C1D4">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="98dp"
+                    android:layout_height="105dp"
+                    app:srcCompat="@drawable/normal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="451dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="Rutinitas Perawatan Kulit Kombinasi"
+                    android:textColor="@color/ungu"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="110dp"
+                    android:text="1. Bersihkan wajah dengan jenis gel yang memiliki kandungan Salicylic acid dan chamomile dengan free alcohol dan free fragrance."
+                    android:textColor="@color/ungu"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="180dp"
+                    android:text="2. Gunakan Hydrating Toner yang mengandung Hyaluronic acid, Glycerin, Peptides, dan Niacinamide. Karena kandungan tersebut dapat menyeimbangkan kadar minyak pada kulit sekaligus menghidrasi kulit dengan kualitas terbaik."
+                    android:textColor="@color/ungu"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="280dp"
+                    android:text="3. Step selanjutnya gunakan Serum dengan kandungan Niacinamide sebagai nutrisi tambahan untuk mengontrol pertumbuhan minyak pada kulit."
+                    android:textColor="@color/ungu"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="350dp"
+                    android:text="4. Kemudian gunakan Moisturizer Gel atau Lotion dengan tipe moiturizer Emmolient untuk memlembabkan kulit serta pilih moisturizer yang memiliki kandungan Hyaluronic acid, Niacinamide, Aloe vera."
+                    android:textColor="@color/ungu"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="450dp"
+                    android:text="5. Terakhir Gunakan Sunscreen dengan jenis Chemical/Physical yang memiliki tekstur ringan seperti gel."
+                    android:textColor="@color/ungu"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="530dp"
+                    android:textColor="@color/ungu"
+                    android:text="Untuk Rutinitas perawatan pada malam hari sama dengan pagi kecuali Sunscreen dan Hydrating toner diganti dengan Exfoliating toner dengan kandungan AHA BHA serta Gunakana Face Mask dengan jenis Clay Mask, Sheet Mask, dan Sleeping Mask."/>
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

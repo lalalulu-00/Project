@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tema"
+    tools:context=".Artikel.Artikel10">
+
+<ScrollView
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/ic_launcher_background"
+        android:gravity="center"
+        android:text="5 Kandungan Makeup Yang Perlu Dihindari Pemilik Kulit Kering"
+        android:textColor="@color/ungu"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Selain kandungan dalam skin care, bahan yang ada di dalam produk makeup pun bisa jadi salah satu pemicu yang membuat kondisi kulit kering Anda semakin parah. Nggak heran, cukup tricky untuk memilih makeup yang tepat bagi si pemilik kulit kering."
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Sebalnya lagi, kondisi kulit kering juga bisa memicu masalah kulit lainnya. Untuk menghindari berbagai permasalahan kulit yang mungkin muncul, berikut 5 kandungan makeup yang perlu dihindari bila Anda memiliki jenis kulit kering!"
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Alkohol"
+        android:textSize="16sp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="180dp"
+        android:layout_gravity="center"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/alkohol"/>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Menurut Rhonda Klein, M.D., MPH, FAAD seorang dokter kulit di Modern Dermatology, kandungan alkohol dalam bentuk apapun berpotensi untuk mengeringkan kulit. Paula dari Paula's Choice pun menyetujui hal ini."
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Walau ada beberapa kandungan alkohol yang cukup bermanfaat, plus, alkohol dalam kadar rendah bisa membantu memberikan efek matte dan membuat tekstur produk lebih lightweight, namun bagi Anda pemilik kulit kering, sebaiknya hindari kandungan alkohol secara keseluruhan karena bisa memicu eksim, rosacea, dan psoriasis."
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Fragrance"
+        android:textSize="16sp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/parfum" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Kandungan fragrance atau pewangi sering kali ditambahkan dalam produk-produk riasan untuk memberi aroma yang menyegarkan pada makeup. Namun bagi Anda yang berkulit kering, kandungan pewangi justru dapat memicu masalah kulit."
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Klein pun menuturkan bahwa pewangi bisa memicu iritasi kulit serta masalah eksim. Ia juga menambahkan, untuk jenis kulit apapun pewangi sebenarnya sangat tidak direkomendasikan karena selalu berpotensi mengakibatkan masalah kulit."
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Fragrance"
+        android:textSize="16sp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/paraben" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Paraben merupakan kandungan bahan pengawet dan sintetis yang ditambahkan dalam produk makeup untuk memperpanjang umur penyimpanan produk tersebut. Adarsh Vijay Mudgil, M.D, pendiri Mudgil Dermatology menjelaskan bahwa paraben merupakan salah satu jenis kandungan yang rentan bagi kulit kering karena mudah mengakibatkan iritasi serta alergi. Kandungan ini juga dinilai berbahaya sehingga saat ini paraben sudah dilarang di Uni-Eropa."
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Glycolic Acid"
+        android:textSize="16sp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/glycolic" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Glycolic acid merupakan salah satu bahan kimia  yang umum digunakan sebagai eksfolian untuk membersihkan komedo serta pori-pori yang tersumbat. Bahan ini juga efektif untuk mengangkat sel-sel kulit mati serta membantu mencegah munculnya sel kulit mati."
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Namun Mudgil tidak merekomendasikan kandungan ini pada produk makeup untuk Anda yang memiliki kulit kering. Kandungan ini dapat membuat kondisi kulit menjadi semakin kering dan sensitif terhadap masalah iritasi."
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Salicylic Acid"
+        android:textSize="16sp"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="180dp"
+        android:layout_gravity="center"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/salicy"/>
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Kandungan salicylic acid biasanya ditemukan pada produk-produk makeup dan perawatan kulit untuk mereka yang memiliki jenis kulit berminyak dan berjerawat. Kandungan asam ini digunakan untuk mengurangi masalah minyak pada kedua jenis kulit tersebut."
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text="Namun, menurut Mudgil, kandungan salicylic acid bila digunakan pada kulit kering justru akan membuatnya semakin kering. So, untuk Anda pemilik kulit kering sebaiknya perlu menghindari produk makeup dengan kandungan salicylic acid. "
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+
+
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:justificationMode="inter_word"
+        android:text=""
+        android:textColor="@color/ic_launcher_background"
+        android:textSize="12sp"></TextView>
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>

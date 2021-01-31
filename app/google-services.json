@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "400166316742",
+    "firebase_url": "https://sistempakar-69a35.firebaseio.com",
+    "project_id": "sistempakar-69a35",
+    "storage_bucket": "sistempakar-69a35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400166316742:android:38007adbd7bb1af8c4c5c7",
+        "android_client_info": {
+          "package_name": "com.android.sistempakar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400166316742-biliupj6ji6icsfhaqc0bepccoenfff5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlIf-EE8L-k2k5r0QEr1Qm-JYKc_LA9TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400166316742-biliupj6ji6icsfhaqc0bepccoenfff5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

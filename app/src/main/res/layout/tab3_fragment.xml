@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="20dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="400dp"
+        android:layout_marginStart="20dp"
+        app:cardBackgroundColor="#E2D1F4">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="30dp"
+                app:cardBackgroundColor="#E2D1F4">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="98dp"
+                    android:layout_height="105dp"
+                    app:srcCompat="@drawable/kering" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="451dp"
+                    android:layout_marginStart="85dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center_horizontal"
+                    android:text="Rutinitas Perawatan Kulit Kering"
+                    android:textColor="@color/pinnks"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="110dp"
+                    android:text="1. Bersihkan wajah menggunakan facial wash dengan jenis creamy dengan kandungan Glyserin, Vitamin E dan minyak jojoba"
+                    android:textColor="@color/pinnks"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="180dp"
+                    android:text="2. Hydrating Toner dengan kandungan Aloevera dan vitamin E"
+                    android:textColor="@color/pinnks"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="240dp"
+                    android:text="3. Gunakan Serum dengan kandungn Hyaluronic Acid, Glycerin dan ceramide untuk melembabkan sekaligus mencerahkan kulit kusam"
+                    android:textColor="@color/pinnks"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="310dp"
+                    android:text="4. Moiturizer dengan jenis oil dengan kandungan gliserin"
+                    android:textColor="@color/pinnks"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="350dp"
+                    android:text="5. Sunscreen Cream untuk melindungi kulit dari kerusakan dan kekeringan"
+                    android:textColor="@color/pinnks"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="400dp"
+                    android:text="Pada malam hari lakukan Tahapan membersihkan muka dengan facial wash kemudian gunakan sleeping mask "
+                    android:textColor="@color/pinnks"></TextView>
+
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

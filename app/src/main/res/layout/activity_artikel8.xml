@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical"
+    tools:context=".Artikel.Artikel8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Manfaat Kombucha Untuk Kesehatan Kulit"
+                android:textColor="@color/ungu"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Selain karena pergerakan tren yang memang mengarah ke gaya hidup sehat, pandemi Covid-19 juga membuat masyarakat makin sadar akan pentingnya mengonsumsi makanan dan minuman sehat. Nah, hal ini pun turut berdampak pada kesehatan kulit, lho!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Salah satu buah dari tren gaya hidup sehat yang kini makin marak di Indonesia adalahnya banyaknya gerai yang menjual kombucha. Minuman fermentasi ini telah sejak lama dikenal karena manfaatnya untuk kesehatan tubuh dan kulit. Nggak heran, kini kombucha juga banyak digunakan dalam produk perawatan kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Nah, sebelum memberikan rekomendasi produk skin care berkandungan kombucha, yuk, pelajari manfaat kombucha untuk kulit dan bagaimana aturan pakainya!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Kandungan di dalam kombucha"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/kombucha" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Di artikel yang telah dibuat oleh Devina sebelumnya, telah dijelaskan dengan lengkap tentang kombucha dan manfaatnya untuk kesehatan tubuh. Teh hitam yang difermentasikan menggunakan bakteri dan jamur ini melibatkan jumlah besar bakteri baik yang juga dikenal dengan nama probiotik."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Selain dapat melancarkan sistem pencernaan tubuh, probiotik rupanya juga baik untuk merawat kulit sehingga berbagai brand skin care pun mulai menggunakan probiotik sebagai ingredient utamanya."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Tidak hanya kaya akan kandungan probiotik, kombucha juga mengandung berbagai macam nutrisi yang dapat bermanfaat untuk kulit seperti vitamin B2, B6 dan B12 serta antioksidan. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Manfaat kombucha untuk kesehatan kulit"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Meski minuman sehat yang kini banyak dikonsumsi oleh generasi milenial ini lebih identik dengan manfaatnya untuk imun dan detoksifikasi tubuh, kombucha juga memberikan banyak khasiat untuk kecantikan kulit. Berikut manfaat kombucha untuk kulit:"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="1. Anti Aging"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/wrinkles" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Berkat sifat antioksidannya, kombucha dapat membantu memberikan perlindungan pada kulit dalam melawan radikal bebas yang menyebabkan penuaan dini."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Amy Driscoll, direktur dari perusahaan minuman kombucha yang berbasis di Brooklyn mengatakan bahwa teh kombucha mengandung antioksidan kuat yang disebut EGCG yang diketahui 20 kali lebih baik dalam menyerang radikal bebas daripada vitamin C, dan bekerja lebih baik dalam menyamarkan kerutan kulit dan tanda-tanda penuaan dini lainnya. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="2. Kulit Sehat dari Dalam"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/cerah" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Selain untuk melawan tanda penuaan dini, mengonsumsi teh kombucha secara rutin juga membantu menjaga kesehatan dan kondisi kulit dari dalam. Amy Driscoll menambahkan bahwa teh kombucha memiliki banyak vitamin B seperti B1, B2, B6, dan B12)."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Vitamin tersebut penting untuk memelihara dan memproduksi sel-sel baru yang sehat. Minum teh kombucha ini secara rutin dapat membantu kulit Anda bersinar bahkan juga memperkuat rambut dan kuku Anda. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="3. Merawat Kulit Alergi dan Jerawat"
+                android:textSize="12sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="180dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/jerawat" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Berdasarkan American Academy of Dermatology (AAD), kandungan probiotik yang ada di dalam teh kombucha juga dapat membantu melawan peradangan, kemerahan, dan jerawat. Jika dioleskan secara topikal, probiotik dapat membantu mencegah bakteri berbahaya mengiritasi kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Meski sejauh ini konsumsi kombucha ditemukan membawa banyak manfaat dan tidak memiliki efek samping yang signifikan, namun Anda tetap dianjurkan untuk mengonsumsi mulai dari dosis kecil terlebih dahulu dan melihat apakah ada efek negatif yang dirasakan."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Psst, tak hanya bermanfaat bila dikonsumsi saja, lho, karena kombucha juga kini telah menjadi kandungan yang populer dan digunakan dalam berbagai produk perawatan kulit."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Artikel.Atikel2">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Kamu Gemar Bersepeda??? Sunscreen ini Cocok untuk Kamu"
+                android:textColor="@color/ungu"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Kegiatan bersepeda yang kian diminati bisa jadi alternatif olahraga yang menyenangkan. Namun tak bisa dipungkiri, kegiatan ini bisa memberi efek buruk pada kesehatan kulit apabila kamu abai untuk melakukan perlindungan. Selain paparan polusi, sinar matahari juga perlu diantisipasi para pesepeda agar kulit tetap sehat. Maka dari itu, pemakaian sunscreen atau tabir surya menjadi wajib dalam rutinitas skin care harian."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Well, inti dari olahraga bersepeda adalah mengeluarkan banyak keringat, tetapi keringat dan sunscreen tidak selalu bercampur. Formula yang tidak dirancang untuk olahraga dapat mengembang, alhasil bisa membuat mata perih dan meninggalkan bercak putih pada wajah setelah minyak bercampur dengan keringat. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Untuk itu, kamu perlu memilih sunscreen yang memiliki formula water-resistant, bebas minyak, dan bebas pewangi untuk mencegah rasa perih. Berikut ini rekomendasinya!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Biore UV Athlizm Skin Protection Essence Sport Sunscreen SPF 50 PA++++"
+                android:textColor="@color/pinnks"
+                android:textSize="12sp"></TextView>
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/biore" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Sunscreen terbaru keluaran Biore ini memiliki formulasi Unique Outer Skin Technology untuk perlindungan aktivitas pada kondisi yang ekstrim, dengan tingkat suhu dan kelembaban yang tinggi. Dengan menggabungkan Tough Boost Formula dan Moist Touch Essence, membuat sunscreen ini lebih tahan terhadap air, keringat, dan gesekan. Itu juga karena produk ini dilengkapi dengan formula water resistant."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:text="Tak hanya itu saja, sunscreen SPF 50 PA++++ ini juga memiliki tekstur yang ringan, mudah diratakan, dan lembut di kulit. Plus, mengandung bahan unik seperti Hyaluronic Acid, Royal Jelly Extract, sehingga dapat menjaga kelembapan kulit. By the way, produk ini dijual di Sociolla dengan harga Rp195 ribu 70 gram."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:layout_marginTop="6dp"
+                android:layout_gravity="center"
+                android:text="Garnier Light Complete Super UV Spot Proof Sunscreen"
+                android:textColor="@color/pinnks"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/garnier" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Mencari produk sunscreen yang sekaligus dapat menyamarkan noda hitam? Garnier Light Complete Super UV Spot Proof Sunscreen bisa jadi pilihan. Ini karena formulasinya diperkaya dengan SPF 50+, Vitamin C dan Vitamin E."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Dengan begitu, sunscreen ini diklaim mampu ini memberi perlindungan kulit dari pengaruh buruk eksternal, seperti debu, polusi, sinar UVA dan UVB, juga dapat mencerahkan kulit dan menyamarkan noda hitam. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Produk yang dijual seharga Rp65.000 ini tersedia dalam dua varian, yakni Natural Finish dan Matte Finish. Untuk jenis kulit normal dan berminyak bisa menggunakan varian Matte Finish. Sedangkan varian Natural Finish cocok untuk semua jenis kulit, plus, memiliki tekstur yang ringan dan tidak meninggalkan rasa lengket!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="BY ECOM All Day Sun Cream SPF50+ PA++++"
+                android:textColor="@color/pinnks"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ecom" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Sunscreen dengan perlindungan UV SPF50 + PA ++++ yang kuat diformulasikan secara lembut dengan bahan EWG green grade, sehingga ramah kulit dan dapat digunakan dengan aman oleh semua anggota keluarga. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Produk ini terbuat dari partikel kelembapan yang mengandung triple Hyaluronic acid, membuat kulit terasa lembap dengan daya lekat yang baik. Ada pula bahan aman lainnya yang juga terkandung di dalamnya, seperti Calamine, Centella Asiatica Extract, EGF Peptide, Panthenol, Azadirachta indica Extract. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Teksturnya yang ringan juga membuat produk dengan mudah meresap ke kulit tanpa meninggalkan whitecast. Bagi yang tertarik menjajal, sunscreen ini dijual di Sociolla seharga Rp450.000 (50 ml)."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="ANESSA Perfect UV Sunscreen Skincare Spray"
+                android:textColor="@color/pinnks"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/download" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:text="Produk rekomendasi selanjutnya adalah sunscreen spray keluaran brand Jepang, ANESSA. Sunscreen ini merupakan produk kombinasi antara perlindungan dari sinar UV dan kandungan skin care yang membantu mencegah dampak dari sinar UV pada kulit seperti Super Hyaluronic Acid, Collagen, Glycerin, dan Ekstrak Tormentilla"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                android:text="Sunscreen ini dikemas ke dalam bentuk spray dengan tekstur yang lembut dan ringan, sehingga memudahkan re-apply. Keunggulan lainnya, produk ini bersifat water-resistant dan sweat-resistant, jadi cocok banget buat kamu yang gemar kegiatan outdoor seperti bersepeda."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Selain dapat digunakan pada tubuh, wajah, dan pelapis makeup, Perfect UV Sunscreen Skincare Spray juga dapat digunakan untuk rambut, lho! Tertarik mencobanya? Produk ini dibanderol seharga Rp299 ribu (60 gram) di Sociolla."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Rosé All Day Don't Forget Sunscreen SPF 50 PA ++++"
+                android:textColor="@color/pinnks"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/rose" />
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Beralih ke produk lokal ada Rosé All Day yang menghadirkan koleksi tabir surya. Dont' Forget Sunscreen SPF 50 PA ++++ diklaim sudah teruji secara dermatologis, bersifat non-comedogenic, dan yang paling penting tidak menimbulkan whitecast. Aktivitas bersepeda akan jadi lebih seru dan kamu bebas bergerak karena kulit wajah dan tubuh sudah terlindungi. Kalau sudah penasaran dengan produk satu ini, sepertinya mesti sedikit bersabar, karena Don't Forget Sunscreen baru akan dirilis tanggal 26 Oktober 2020, wah masih sempat untuk menabung dulu, nih!"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

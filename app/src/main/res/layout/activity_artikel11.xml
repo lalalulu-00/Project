@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tema"
+    tools:context=".Artikel.Artikel11">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:gravity="center"
+                android:text="Best Products Untuk Hiperpigmentasi"
+                android:textColor="@color/ungu"
+                android:textSize="22sp" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/hiper" />
+
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Hiperpigmentasi merupakan masalah kulit yang umum terjadi pada kulit. Banyak hal yang menyebabkan hiperpigmentasi terjadi, seperti perubahan hormon, genetika, dan eksim. Tetapi satu hal utama yang memicu hiperpigmentasi adlah sinar UV, Karena UV merangsang produksi melanin. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Untuk mengurangi hiperpigmentasi menggunakan produk skincare dengan kandungan Vitamin C, Hydroquinone, dan Niacinamide. Kamu juga bharus menggunakan tabir surya yang memiliki kualitas sbaik dengan SPF unuk melindungi kulit dari kerusakan kulit yang dapat memperparah hiperpigmentasi."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Berikut Produk Terbaik Untuk Hiperpigmentasi"
+                android:textColor="@color/pinkmuda"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Serum Anti-Penuaan ISDINCEUTICS Flavo-C"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/flavo" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="produk ini salah satu serum anti penuaan terbaik yang secara efektif membantu mengurangi hiperpigmentasi. Produk ini mengandung bahan pembunuh asam karbonat, yang merupakan bentuk alami vitamin C, memastikan kulit tampak segar dan lembut. Anda dapat dengan mudah mendapat produk ini di Amazon dengan harga $13."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Clinique Smart Custom-Repair Serum"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/klinikk" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Serum ini memiliki fungsi untuk mengencilkan pori-pori dan mengurangi bintik-bintik hitam yang ada pada kulit. Konsumen telah memberikan banyak umpa balik positif tentang produk yang efektifk dan mengatakan bahwa serum ini merupakan serum yang berkualitas tinggi dengan cepat menyerap ke dalam kulit dan memberikannya tampilan yang sangat cerah. Harga produk ini Rp. 125.000 bisa didapatkan di ecommerce lokal. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Loreal Paris Revitalift Bright Reveal Brightening Moisturizer with SPF 30"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/lorea" />
+
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Dari semua produk, ini lah yang terbaik untuk menghilangkan bintik-bintik UV yang membandel. Produk ini seperti pelembab yang mengandung vitamin C, pro retinol, asam glikolat yang memiliki efek luar biasa. Efeknya disetujui secara klinis, dan dikatakan sebagai salah satu produk perawatan kulit terbaik untuk menyempurnakan warna kulitmu. Harga produk ini RP. 115.000."
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4. The Ordinary Azelaic Acid Suspension 10%"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ordii" />
+
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text="Produk terakhir yang tidak kalah bagus untuk menghilangkan hiperpigmentasi secara instan. Produk ini memiliki efek ganda karena tidak hanya mengatasi hiperpigmentasi tetapi juga membantu mengurangi jerawta. Salah satu bahan utamanya adalah Asam Azelaic, yang membantu untuk mencegah pertumbuhan melamin kulit. Bisa didaptkan di ecommerce lokal dengan harga RP.200.000. "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:text=""
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="12sp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
